@@ -2,7 +2,7 @@
 related:
   - "[[notebook]]"
 ---
-- Bacterial [plasmids]([Plasmid - Wikipedia](https://en.wikipedia.org/wiki/Plasmid)) are cyclic, but can be cut by restriction enzymes (exonucleases) into a linear shape
+- Bacterial [plasmids](https://en.wikipedia.org/wiki/Plasmid) are cyclic, but can be cut by restriction enzymes (exonucleases) into a linear shape
 
 > E.g. we want to develop plant resistant to something, we find an appropriate bacterial gene, cut it out and splice it with a plant promotor (it won't work with a bacterial one) and insert it into back into a plant, so it can start expression when neeeded... **or?**
 
