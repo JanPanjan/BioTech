@@ -1,0 +1,80 @@
+---
+title: "Določanje kateri restrikcijski encimi so si sorodni med target regijo na plasmidu in cry genu"
+---
+
+```{r}
+pres <- read.table(file = "plasmid_REs.tsv", sep = "\t", header = T)
+fres <- read.table(file = "fragment_REs.tsv", sep = "\t", header = T)
+```
+
+```{r}
+head(pres)
+head(fres)
+```
+
+```{r}
+pvec <- pres[, 1]
+fvec <- fres[, 1]
+```
+
+```{r}
+print(pvec)
+print(fvec)
+```
+
+```{r}
+common_res <- pvec[which(pvec %in% fvec)]
+uncommon_p <- pvec[which(!(pvec %in% fvec))]
+uncommon_f <- fvec[which(!(fvec %in% pvec))]
+```
+
+---
+
+Encimi prisotni v obeh:
+
+```{r}
+common_res
+```
+
+Encimi prisotni samo v plazmidu:
+
+```{r}
+uncommon_p
+```
+
+Encimi prisotni sami v cry genu:
+
+```{r}
+uncommon_f
+```
+
+---
+
+Encim za vstavljanje
+
+1. ne sme biti prisoten v fragmentu
+2. mora se nahajati med promotorjem in GFP genom
+
+Ker jih je malo med promotorjem in GFPjem, sem jih prepisal.
+
+Moti me ker je `StyI` v fragmentu, ampak ga ni prikazalo na seznamu encimov za fragment.. Dodal ga bom zraven.
+
+```{r}
+fvec2 <- c(fvec, "StyI")
+```
+
+```{r}
+plasmid_candidates <- c("StyI", "BtgI", "NcoI", "AccI", "SalI", "HincII")
+```
+
+Kateri od njih je prisoten v fragmentu?
+
+```{r}
+plasmid_candidates[which(plasmid_candidates %in% fvec2)]
+```
+
+Kateri od njih ni prisoten v fragmentu?
+
+```{r}
+plasmid_candidates[which(!(plasmid_candidates %in% fvec2))]
+```

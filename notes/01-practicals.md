@@ -72,6 +72,10 @@ GCATGACCGTGGTGTAAGT
 
 ![[Pasted image 20251203133554.png]]
 
+Lahko tudi izbereš `File > Export > Map`:
+
+![[Assembled Map 1.png]]
+
 8. *Add primers on the site of T7 and SP6 promoters and simulate the PCR.* 
 
 Notice that **T7 is left of SP6**. T7 primer will be the **forward** (top) strand, while SP6 primer will be the **bottom** one. Click on the promotor region in the assembled sequence, `Primers -> Add primer -> Make a primer from selection [top|bottom]` and name them correctly.
