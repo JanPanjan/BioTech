@@ -72,3 +72,7 @@ Pusti mi če izberem samo eno regijo pri plazmidu in encimu... sem izbral `NcoI`
 ![[Pasted image 20260103001003.png]]
 ![[Pasted image 20260103001025.png]]
 
+![[BioTech/practicals/2/2.2/Cloned Map.png]]
+
+> [!note] Misli glede dileme o encimih
+> Zdi se mi, da je logično, da imajo restrikcijski encimi več regij v genu, ki jih lahko razrežejo (verjetnost, da se pojavijo vzorci N nukleotidov; večji N, manjša verjetnost + degeneriranost nekaterih prepoznavnih regij). To je tudi en faktor, poleg mutacij oziroma napak pri ligaciji ali nekaj, ki je kriv, da se fragment ne vstavi v vsako celico. Zaradi tega imamo selektivne markerje itn. Je pa čudno, ker mi je logično, da če uporabiš encim za vstavljanje, ki ima prepoznavno mesto tudi v fragmentu, je zelo verjetno, da se bo tvoj fragment razkosal. Zato mi ni čisto jasno, zakaj je okej, če uporabim regije, ki sem jih določil.
