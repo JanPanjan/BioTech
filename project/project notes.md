@@ -32,7 +32,7 @@
 
 ## Donor DNA cassette
 
-- They planned to create a [[Donor DNA cassette]] with 
+- They planned to create a [[Donor DNA cassette]] with
 	- Cas9 and [[gRNA]] coding sequences under the control of germline-specific and ubiquitous [[Promoters]]
 	- as well as a modified GFP reporter transgene
 - Prnp-specific [[Homology arms]] ~800bp would flank these sequences
