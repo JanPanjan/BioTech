@@ -1,0 +1,5 @@
+Unique 6+ Cutters
+
+AflII, AgeI, AhdI, AleI, ApaI, AvrII, BamHI, BglII, BstXI, BstZ17I, Bsu36I,
+BtsI, BtsαI, CsiI, EcoRI, FspAI, HindIII, HpaI, NdeI, NotI, PasI, PmeI, PspOMI,
+PstI, SexAI, SfiI, SgrDI, StuI, XbaI

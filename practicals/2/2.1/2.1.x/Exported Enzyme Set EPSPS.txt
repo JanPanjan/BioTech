@@ -1,0 +1,6 @@
+Unique 6+ Cutters
+
+AatII, AflII, AflIII, AgeI, ApoI, AsiSI, BaeGI, BciVI, BglI, Bme1580I, BmgBI,
+BmrI, BsaWI, BsiEI, BsiHKAI, BspDI, BspQI, BsrFI, BstAPI, ClaI, EarI, EciI,
+Eco53kI, EcoP15I, HaeII, HindIII, KflI, MslI, NsiI, PasI, PciI, PfoI, PpuMI,
+PvuI, SacI, SapI, SfcI, SphI, StyI, TsoI, XmnI, ZraI
