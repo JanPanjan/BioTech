@@ -298,6 +298,22 @@ RE's not present in the cry gene can be chosen for insertion. These are `StyI`, 
 
 == 3. Exercise: Construction of CRISPR/Cas9 plasmid
 
+- The aim of this exercise is to create plasmid with CRISPR/Cas9 components to knock out gene for beta-gliadin and consequently to develop gluten-free cultivar.
+
+- Reference article: #link("https://pubmed.ncbi.nlm.nih.gov/23929339/")[Multiplex and homologous recombination-mediated genome editing in Arabidopsis and Nicotiana benthamiana using guide RNA and Cas9]
+
+- They co-expressed the plant codon-optimized _SpCas9_ (pcoCas9) and a gRNA targeting the _Arabidopsis thaliana_ PDS3 gene
+
+- _pcoCas9_ was expressed under the hybrid constitutive 35SPPDK promoter in the pRGEB31 plasmid
+
+#image("3/pRGEB31 Map.png", width: 100%)
+
+- _gRNA_ was expressed under the _Arabidopsis_ U6 polymerase III promoter (AtU6-1) in the pUC119-gRNA plasmid
+
+#image("3/pUC119-gRNA Map.png", width: 100%)
+
+=== SnapGene workflow
+
 TBD
 
 #pagebreak()
