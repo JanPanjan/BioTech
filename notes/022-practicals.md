@@ -69,7 +69,9 @@ Siva regija pa je enhancer in tega ne smem izrezat, kot smo imeli pri [[021-prac
 Pusti mi če izberem samo eno regijo pri plazmidu in encimu... sem izbral `NcoI`. Anyways,
 
 ![[Pasted image 20260103000930.png]]
+
 ![[Pasted image 20260103001003.png]]
+
 ![[Pasted image 20260103001025.png]]
 
 ![[BioTech/practicals/2/2.2/Cloned Map.png]]
