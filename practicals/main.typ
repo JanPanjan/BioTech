@@ -1,5 +1,5 @@
 #show link: l => { text(fill: blue, underline(l)) }
-// #set text(font: "Liberation Sans", size: 12pt)
+#set text(font: "Inter")
 #set page(margin: (x: 2cm, y: 2.2cm))
 #show heading.where(level: 1): h => {
   align(center, text(size: 22pt, h))
@@ -14,7 +14,9 @@
   v(1%)
 }
 
-#let boxf(body) = { box(fill: luma(230), inset: 10pt, body) }
+#let boxf(body) = {
+  box(fill: luma(230), inset: 5pt, outset: 5pt, width: 100%, body)
+}
 
 #let naslovnica(naslov, predmet, ime, leto) = {
   v(15%)
@@ -32,10 +34,13 @@
 // šele tu nastavi številčenje strani, da je naslovnica prazna
 #set page(numbering: "1", number-align: center)
 #counter(page).update(1)
-#outline(depth: 5, title: [Contents #v(2%)], indent: 5%)
-#pagebreak()
+#outline(depth: 3, title: [Contents #v(2%)], indent: 5%)
 
+#pagebreak()
+#v(1fr)
 = Dry lab Excercises
+#v(1fr)
+#pagebreak()
 
 == 1. Excercise: Gibson-Assembly Cloning
 
@@ -57,7 +62,7 @@ EMO-03-for GGTGTAGCCCAAGCCCTTAT, EMO-03-rev GCATGACCGTGGTGTAAGT
 
 #line(length: 100%)
 
-=== SnapGene workflow
+*SnapGene workflow*
 
 1. Import pGEM-T Easy Vector sequence from “SnapGene Online Sequences…”
 
@@ -86,7 +91,7 @@ EMO-03-for GGTGTAGCCCAAGCCCTTAT, EMO-03-rev GCATGACCGTGGTGTAAGT
 Go to “Primers” tab and near the Save button click the arrow and select Export Primer Data…. Paste designed primers in the notebook.
 
 #par()[]
-#box(fill: luma(240), outset: 5pt, inset: 5pt)[
+#boxf()[
   #text(size: 10pt)[```
   DCA15-forward	GATCTTGTCTGTATATCCACAC
   DCA15-reverse	TATACCTTTTCCATCTTGACGC
@@ -106,7 +111,9 @@ Go to “Primers” tab and near the Save button click the arrow and select Expo
 
 #image("1/Amplified_T7_SP6 Map.png", width: 100%)
 
-=== Questions
+#line(length: 100%)
+*Questions*
+#par()[]
 
 *1. What will the length of the PCR product be using T7 and SP6 primers?*
 
@@ -125,7 +132,7 @@ Go to “Primers” tab and near the Save button click the arrow and select Expo
 *3. Export the amplified region as a fasta file and paste the sequence to your notebook.*
 
 #par()[]
-#box(fill: luma(240), outset: 5pt, inset: 5pt, width: 100%)[```
+#boxf()[```
 >Amplified_T7_SP6  (656 bp)
 TAATACGACTCACTATAGGGCGAATTGGGCCCGACGTCGCATGCTCCCGGCCGCCATGGCGGCCGCGGGAATTCGATTGA
 TCTTGTCTGTATATCCACACAGACACACACACACACACACACACACACACAAAGAATAGAAAAACAGACAGAAAAAGAAT
@@ -148,9 +155,9 @@ ATAGTGTCACCTAAAT
 
 - Nucleotide sequence of cry protein is available in GenBank under the accession number `EA295176.1`
 
-#par()[]
-==== SnapGene workflow:
-#par()[]
+#line(length: 100%)
+
+*SnapGene workflow*
 
 1. Import fasta sequence of cry protein in SnapGene.
 
@@ -176,7 +183,8 @@ ATAGTGTCACCTAAAT
 
 #image("2/2.1/pGA643_EA295176_Cloned Map.png", width: 100%)
 
-==== Questions:
+#line(length: 100%)
+*Questions*
 #par()[]
 
 *1. How can pGA643 plasmid be inserted into a plant cell? Explain.*
@@ -226,7 +234,7 @@ References:
 
 #line(length: 100%)
 
-SnapGene workflow follows the same steps as #link(<2.1>)[2.1] with different restriction sites:
+*SnapGene workflow follows the same steps as #link(<2.1>)[2.1] with different restriction sites*
 
 1. Import fasta sequence of `KJ787649.1`
 
@@ -260,7 +268,7 @@ To complete this task follow the steps described in 2.1 section, except two impo
 
 #line(length: 100%)
 
-==== SnapGene workflow:
+*SnapGene workflow*
 
 1. Import fasta sequence of cry protein (`EA295176.1`)
 
@@ -282,16 +290,20 @@ To complete this task follow the steps described in 2.1 section, except two impo
 
 #image("2/2.2/35S-eGFP-nosT_cry_Cloned Map.png", width: 100%)
 
-==== Questions
+#line(length: 100%)
+*Questions*
 #par()[]
 
 *1. What can transient expression be used for?*
+
+Transiently transfected cells are often used to study the effects of short-term gene expression, perform RNA interference (RNAi)‑mediated gene silencing, or quickly generate small-scale recombinant proteins. (#link("https://en.wikipedia.org/wiki/Transient_expression#:~:text=Transiently%20transfected%20cells%20are%20often%20used%20to%20study%20the%20effects%20of%20short%2Dterm%20gene%20expression%2C%20perform%20RNA%20interference%20(RNAi)%E2%80%91mediated%20gene%20silencing%2C%20or%20quickly%20generate%20small%2Dscale%20recombinant%20proteins.")[ref.])
 
 #par()[]
 *2. Which restriction enzymes can be used to open the plasmid between CaMV 35S promoter and eGFP gene?*
 
 RE's not present in the cry gene can be chosen for insertion. These are `StyI`, `BtgI` and `NcoI`.
 
+#par()[]
 #align(center, image("2/2.2/REs/35seGFPnosT_REs.png", width: 90%))
 
 #pagebreak()
@@ -312,18 +324,60 @@ RE's not present in the cry gene can be chosen for insertion. These are `StyI`, 
 
 #image("3/pUC119-gRNA Map.png", width: 100%)
 
-=== SnapGene workflow
+- Paste the #link("https://drive.google.com/file/d/1tp8bOtzt1doeybjte29s4mK3qh-dNLqK/view?usp=sharing")[protein] sequence into #link("https://chopchop.cbu.uib.no/")[ChopChop website] to find which 20 bp sequence would be most suitable to cut with Cas9 nuclease
 
-TBD
+#par()[]
+
+#boxf()[
+  Unfortunately my SnapGene free trial ran out before I could complete this task.
+]
+
+#line(length: 100%)
+*Questions*
+#par()[]
+
+*1. Which pRGEB31 plasmid components are removed with HindIII and SbfI restriction enzymes?*
+
+The 20 bp long guide RNA sequence between AtU6-1 promoter and gRNA scaffold.
+
+#par()[]
+*2. How long is the sequence of complete gRNA (target region and gRNA scaffold)?*
+
+96 bp.
+
+#par()[]
+*3. Provide History tab screenshots for both plasmids, all primers, gRNA sequence, etc.*
+
+...
+
 
 #pagebreak()
-
+#v(1fr)
 = Wet lab Excercises
+#v(1fr)
+#pagebreak()
 
+#v(1fr)
 == 1. Exercise: PCR - amplification of two regions (microsatellite markers) from two olive varieties
+#v(1fr)
 
+#image("OneDrive 19 Jan 2026/1_1.jpg")
+#image("OneDrive 19 Jan 2026/1_2.jpg")
+#image("OneDrive 19 Jan 2026/1_3.jpg")
+
+#pagebreak()
+#v(1fr)
 == 2. Exercise - Cleaning PCR products obtained with DCA15 and EMO3 primers with QIAquick PCR Purification Kit
+#v(1fr)
+#pagebreak()
 
+#image("OneDrive 19 Jan 2026/2_1.jpg")
+
+#pagebreak()
+#v(1fr)
 == 3. Exercise - Assembly of PCR products and pGEM plasmid with Gibson Assembly Kit
+#v(1fr)
+#pagebreak()
 
-== 4. Sequencing with Oxford Nanonpore Technologies
+#image("OneDrive 19 Jan 2026/3_1.jpg")
+#image("OneDrive 19 Jan 2026/3_2.jpg")
