@@ -1,6 +1,9 @@
 ---
 related:
   - "[[notebook]]"
+tags:
+  - vaje
+  - biotech
 ---
 - Bacterial [plasmids](https://en.wikipedia.org/wiki/Plasmid) are cyclic, but can be cut by restriction enzymes (exonucleases) into a linear shape
 

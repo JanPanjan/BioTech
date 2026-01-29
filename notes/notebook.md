@@ -1,3 +1,8 @@
+---
+tags:
+  - biotech
+  - vaje
+---
 # Part 1 - SnapGene
 
 ## Select “Map” tab, take a screenshot and include it in the notebook.

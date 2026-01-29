@@ -1,3 +1,7 @@
+---
+tags:
+  - biotech
+---
 # Short introduction
 
 ## Prion diseases

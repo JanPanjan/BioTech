@@ -3,7 +3,6 @@ related:
   - https://pubmed.ncbi.nlm.nih.gov/16988331/
 tags:
   - biotech
-  - bioinfo
   - bkem
 ---
 A **binary [[Plasmid|vector]]** is a standard tool in the transformation of higher plants mediated by Agrobacterium tumefaciens. 

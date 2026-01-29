@@ -1,1 +1,5 @@
+---
+tags:
+  - biotech
+---
 Expression of a gene and production of its protein in an **abnormal location, cell type or developmental stage** where it's not normally found.

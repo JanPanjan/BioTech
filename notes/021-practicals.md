@@ -1,3 +1,8 @@
+---
+tags:
+  - vaje
+  - biotech
+---
 # Insertion of gene for cry protein into a pGA643 plasmid.
 
 ### 1. *Import fasta sequence of cry protein in SnapGene.*

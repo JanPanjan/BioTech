@@ -1,5 +1,5 @@
 #show link: l => { text(fill: blue, underline(l)) }
-#set text(font: "Inter")
+#set text(font: "Times New Roman")
 #set page(margin: (x: 2cm, y: 2.2cm))
 #show heading.where(level: 1): h => {
   align(center, text(size: 22pt, h))

@@ -1,3 +1,8 @@
+---
+tags:
+  - vaje
+  - biotech
+---
 # **Insertion of gene for cry protein in a plasmid with the sequence of GFP protein, called 35S-eGFP-nosT, and used for transient expression**
 
 *To complete this task follow the steps described in 2.1 section, except two important things:*
