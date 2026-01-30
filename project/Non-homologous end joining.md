@@ -2,6 +2,6 @@
 aliases:
   - NHEJ
 tags:
-  - biotech
+  - Biotehnologija
 ---
 Primary cellular pathway for repairing [[Double stranded breaks|DSBs]]

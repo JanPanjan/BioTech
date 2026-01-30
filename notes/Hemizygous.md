@@ -1,7 +1,8 @@
 ---
 tags:
-  - biotech
-  - genetics
+  - Biotehnologija
+  - Genetika
+index: "[[§BIOTECH-index]]"
 ---
 Describes an individual who has **only one member of a chromosome pair** or chromosome segment rather than the usual two. 
 

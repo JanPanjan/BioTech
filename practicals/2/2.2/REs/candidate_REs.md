@@ -1,6 +1,6 @@
 ---
 tags:
-  - biotech
+  - Biotehnologija
 ---
     pres <- read.table(file = "plasmid_REs.tsv", sep = "\t", header = T)
     fres <- read.table(file = "fragment_REs.tsv", sep = "\t", header = T)

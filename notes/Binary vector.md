@@ -1,9 +1,10 @@
 ---
+tags:
+  - Biotehnologija
+  - Biokemija
 related:
   - https://pubmed.ncbi.nlm.nih.gov/16988331/
-tags:
-  - biotech
-  - bkem
+index: "[[§BIOTECH-index]]"
 ---
 A **binary [[Plasmid|vector]]** is a standard tool in the transformation of higher plants mediated by Agrobacterium tumefaciens. 
 

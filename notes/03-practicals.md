@@ -1,7 +1,10 @@
 ---
 tags:
-  - vaje
-  - biotech
+  - Biotehnologija
+  - Vaje/BT
+related:
+  - "[[../practicals/Biotechnology drylab.pdf|Biotechnology drylab]]"
+index: "[[§BIOTECH-index]]"
 ---
 Start in SnapGene: Import -> AddGene Plasmids -> write pUC119-gRNA
 

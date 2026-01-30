@@ -1,7 +1,8 @@
 ---
 tags:
-  - biotech
-  - vaje
+  - Biotehnologija
+  - Vaje/BT
+index: "[[§BIOTECH-index]]"
 ---
 # Part 1 - SnapGene
 

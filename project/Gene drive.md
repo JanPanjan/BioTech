@@ -1,5 +1,5 @@
 ---
 tags:
-  - biotech
+  - Biotehnologija
 ---
 Molecular mechanisms that promote inheritance of a DNA sequence at high frequencies. Such mechanisms exist in nature and include transposable elements, meiotic drivers and mating type swithing in yeast.

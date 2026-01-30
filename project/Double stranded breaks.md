@@ -3,6 +3,6 @@ aliases:
   - DSB
   - DSBs
 tags:
-  - biotech
+  - Biotehnologija
 ---
 Double stranded breaks.

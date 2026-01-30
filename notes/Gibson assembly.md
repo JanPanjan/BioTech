@@ -1,8 +1,9 @@
 ---
+tags:
+  - Biotehnologija
 related:
   - https://www.youtube.com/watch?v=tlVbf5fXhp4
-tags:
-  - biotech
+index: "[[§BIOTECH-index]]"
 ---
 A molecular cloning method that allows for the **joining of multiple DNA fragments in a single, isothermal reaction**.
 

@@ -1,5 +1,5 @@
 ---
 tags:
-  - biotech
+  - Biotehnologija
 ---
 # Biotehnologija

@@ -1,7 +1,10 @@
 ---
 tags:
-  - vaje
-  - biotech
+  - Biotehnologija
+  - Vaje/BT
+related:
+  - "[[../practicals/Biotechnology drylab.pdf|Biotechnology drylab]]"
+index: "[[§BIOTECH-index]]"
 ---
 # **Insertion of gene for cry protein in a plasmid with the sequence of GFP protein, called 35S-eGFP-nosT, and used for transient expression**
 

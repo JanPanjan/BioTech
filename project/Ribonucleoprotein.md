@@ -2,6 +2,8 @@
 aliases:
   - RNP
 tags:
-  - biotech
+  - Biotehnologija
+  - Biokemija
+  - Biokemija/Proteini
 ---
 Ribonucleoprotein.

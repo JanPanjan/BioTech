@@ -1,7 +1,11 @@
 ---
 tags:
-  - vaje
-  - biotech
+  - Biotehnologija
+  - Vaje/BT
+related:
+  - "[[../practicals/2/2.1/021-practicals.pdf|021-practicals]]"
+  - "[[../practicals/Biotechnology drylab.pdf|Biotechnology drylab]]"
+index: "[[§BIOTECH-index]]"
 ---
 # Insertion of gene for cry protein into a pGA643 plasmid.
 

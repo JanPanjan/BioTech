@@ -1,6 +1,6 @@
 ---
 tags:
-  - biotech
+  - Biotehnologija
 ---
 # Short introduction
 

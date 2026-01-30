@@ -2,8 +2,9 @@
 related:
   - https://en.wikipedia.org/wiki/Promoter_(genetics)
 tags:
-  - biotech
-  - genetics
+  - Biotehnologija
+  - Genetika
+index: "[[§BIOTECH-index]]"
 ---
 A **promoter** is a sequence of DNA to which [[Proteini in peptidi|proteins]] bind to initiate transcription of a **single RNA transcript** from the DNA downstream of the promoter.
 
