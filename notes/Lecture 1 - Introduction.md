@@ -56,15 +56,19 @@ Genes contain coding and non-coding RNA segments. Only mRNA constitutes the codi
 
 ![[files/Pasted image 20260203183958.png#invert|700]]
 
+![[files/Pasted image 20260204154200.png#invert|700]]
+
 [[Promoters]] function as regulatory regions, which regulate transcription/gene expression. RNA polymerases bind to these regions, which is why they are very conserved across different genes in an organism.
+
+5'-[[UTRs]] contain recognition sites for ribosomes.
 
 ![[files/Pasted image 20260203182553.png#invert|700]]
 
-Promoter-proximal elements that precede promoters improve the efficiency of gene expression.
+**Promoter-proximal elements** that precede promoters improve the efficiency of gene expression.
 
 ![[files/Pasted image 20260203184543.png#invert|700]]
 
-Transcriptional factors and enhancers also take part in gene expression.
+**Transcriptional factors** and **enhancers** also take part in gene expression.
 
 More about regulation...
 
@@ -97,12 +101,14 @@ Elongation of the transcript continues until `AAUAAA` or `AUUAAA` segment, calle
 
 4 types of restriction enzymes that are used in biotechnology:
 
-1. **make:** DNA polymerase's that synthesize new polynucleotide chains based on a DNA template
-2. **break:** nucleases break the DNA strands on 2 fragments by breaking the phosphodiester bond between nucleotides
-3. **join:** ligases join 2 DNA fragments together by creating a phosphodiester bond between their ends
-4. **change:** end-modification enzymes that modify ends of DNA fragments
+1. make - **DNA polymerase's** that synthesize new polynucleotide chains based on a DNA template
+2. break - **nucleases** break the DNA strands on 2 fragments by breaking the phosphodiester bond between nucleotides
+	- **exonucleases** make breaks somewhere inside of the molecule
+	- **endonucleases** make breaks at the end of a molecule (useful for creating sticky/blunt ends)
+3. join - **ligases** join 2 DNA fragments together by creating a phosphodiester bond between their ends
+4. change - **end-modification enzymes** that modify ends of DNA fragments
 
-Preberi v rjavi knjigici več o tem
+> Preberi v rjavi knjigici več o tem
 
 ---
 
